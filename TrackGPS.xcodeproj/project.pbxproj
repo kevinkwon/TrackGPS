@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F9CBC291BA3208800850077 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9CBC281BA3208800850077 /* main.m */; };
+		4F9CBC2C1BA3208800850077 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9CBC2B1BA3208800850077 /* AppDelegate.m */; };
+		4F9CBC2F1BA3208800850077 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9CBC2E1BA3208800850077 /* ViewController.m */; };
+		4F9CBC321BA3208800850077 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F9CBC301BA3208800850077 /* Main.storyboard */; };
+		4F9CBC341BA3208800850077 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F9CBC331BA3208800850077 /* Images.xcassets */; };
+		4F9CBC371BA3208800850077 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F9CBC351BA3208800850077 /* LaunchScreen.xib */; };
+		4F9CBC431BA3208800850077 /* TrackGPSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9CBC421BA3208800850077 /* TrackGPSTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F9CBC3D1BA3208800850077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F9CBC1B1BA3208800850077 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F9CBC221BA3208800850077;
+			remoteInfo = TrackGPS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F9CBC231BA3208800850077 /* TrackGPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackGPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F9CBC271BA3208800850077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F9CBC281BA3208800850077 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F9CBC2A1BA3208800850077 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F9CBC2B1BA3208800850077 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F9CBC2D1BA3208800850077 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F9CBC2E1BA3208800850077 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F9CBC311BA3208800850077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F9CBC331BA3208800850077 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4F9CBC361BA3208800850077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4F9CBC3C1BA3208800850077 /* TrackGPSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackGPSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F9CBC411BA3208800850077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F9CBC421BA3208800850077 /* TrackGPSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackGPSTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F9CBC201BA3208800850077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F9CBC391BA3208800850077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F9CBC1A1BA3208800850077 = {
+			isa = PBXGroup;
+			children = (
+				4F9CBC251BA3208800850077 /* TrackGPS */,
+				4F9CBC3F1BA3208800850077 /* TrackGPSTests */,
+				4F9CBC241BA3208800850077 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F9CBC241BA3208800850077 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F9CBC231BA3208800850077 /* TrackGPS.app */,
+				4F9CBC3C1BA3208800850077 /* TrackGPSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F9CBC251BA3208800850077 /* TrackGPS */ = {
+			isa = PBXGroup;
+			children = (
+				4F9CBC2A1BA3208800850077 /* AppDelegate.h */,
+				4F9CBC2B1BA3208800850077 /* AppDelegate.m */,
+				4F9CBC2D1BA3208800850077 /* ViewController.h */,
+				4F9CBC2E1BA3208800850077 /* ViewController.m */,
+				4F9CBC301BA3208800850077 /* Main.storyboard */,
+				4F9CBC331BA3208800850077 /* Images.xcassets */,
+				4F9CBC351BA3208800850077 /* LaunchScreen.xib */,
+				4F9CBC261BA3208800850077 /* Supporting Files */,
+			);
+			path = TrackGPS;
+			sourceTree = "<group>";
+		};
+		4F9CBC261BA3208800850077 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F9CBC271BA3208800850077 /* Info.plist */,
+				4F9CBC281BA3208800850077 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F9CBC3F1BA3208800850077 /* TrackGPSTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F9CBC421BA3208800850077 /* TrackGPSTests.m */,
+				4F9CBC401BA3208800850077 /* Supporting Files */,
+			);
+			path = TrackGPSTests;
+			sourceTree = "<group>";
+		};
+		4F9CBC401BA3208800850077 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F9CBC411BA3208800850077 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F9CBC221BA3208800850077 /* TrackGPS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F9CBC461BA3208800850077 /* Build configuration list for PBXNativeTarget "TrackGPS" */;
+			buildPhases = (
+				4F9CBC1F1BA3208800850077 /* Sources */,
+				4F9CBC201BA3208800850077 /* Frameworks */,
+				4F9CBC211BA3208800850077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackGPS;
+			productName = TrackGPS;
+			productReference = 4F9CBC231BA3208800850077 /* TrackGPS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F9CBC3B1BA3208800850077 /* TrackGPSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F9CBC491BA3208800850077 /* Build configuration list for PBXNativeTarget "TrackGPSTests" */;
+			buildPhases = (
+				4F9CBC381BA3208800850077 /* Sources */,
+				4F9CBC391BA3208800850077 /* Frameworks */,
+				4F9CBC3A1BA3208800850077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F9CBC3E1BA3208800850077 /* PBXTargetDependency */,
+			);
+			name = TrackGPSTests;
+			productName = TrackGPSTests;
+			productReference = 4F9CBC3C1BA3208800850077 /* TrackGPSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F9CBC1B1BA3208800850077 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = KevinKwon;
+				TargetAttributes = {
+					4F9CBC221BA3208800850077 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					4F9CBC3B1BA3208800850077 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 4F9CBC221BA3208800850077;
+					};
+				};
+			};
+			buildConfigurationList = 4F9CBC1E1BA3208800850077 /* Build configuration list for PBXProject "TrackGPS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F9CBC1A1BA3208800850077;
+			productRefGroup = 4F9CBC241BA3208800850077 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F9CBC221BA3208800850077 /* TrackGPS */,
+				4F9CBC3B1BA3208800850077 /* TrackGPSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F9CBC211BA3208800850077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9CBC321BA3208800850077 /* Main.storyboard in Resources */,
+				4F9CBC371BA3208800850077 /* LaunchScreen.xib in Resources */,
+				4F9CBC341BA3208800850077 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F9CBC3A1BA3208800850077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F9CBC1F1BA3208800850077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9CBC2F1BA3208800850077 /* ViewController.m in Sources */,
+				4F9CBC2C1BA3208800850077 /* AppDelegate.m in Sources */,
+				4F9CBC291BA3208800850077 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F9CBC381BA3208800850077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9CBC431BA3208800850077 /* TrackGPSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F9CBC3E1BA3208800850077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F9CBC221BA3208800850077 /* TrackGPS */;
+			targetProxy = 4F9CBC3D1BA3208800850077 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F9CBC301BA3208800850077 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F9CBC311BA3208800850077 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F9CBC351BA3208800850077 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F9CBC361BA3208800850077 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F9CBC441BA3208800850077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4F9CBC451BA3208800850077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F9CBC471BA3208800850077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TrackGPS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F9CBC481BA3208800850077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TrackGPS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4F9CBC4A1BA3208800850077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TrackGPSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackGPS.app/TrackGPS";
+			};
+			name = Debug;
+		};
+		4F9CBC4B1BA3208800850077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TrackGPSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackGPS.app/TrackGPS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F9CBC1E1BA3208800850077 /* Build configuration list for PBXProject "TrackGPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F9CBC441BA3208800850077 /* Debug */,
+				4F9CBC451BA3208800850077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F9CBC461BA3208800850077 /* Build configuration list for PBXNativeTarget "TrackGPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F9CBC471BA3208800850077 /* Debug */,
+				4F9CBC481BA3208800850077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F9CBC491BA3208800850077 /* Build configuration list for PBXNativeTarget "TrackGPSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F9CBC4A1BA3208800850077 /* Debug */,
+				4F9CBC4B1BA3208800850077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F9CBC1B1BA3208800850077 /* Project object */;
+}
